@@ -1,0 +1,7 @@
+num = int (input("Introduce un numero: "))
+numVeces = 1
+while numVeces > 0 and numVeces <=10:
+    tabla = num * numVeces 
+    print(numVeces,"*",num ,"=", tabla) 
+    numVeces = numVeces+1
+    
