@@ -1,3 +1,5 @@
-for num in range (11):
+producto = 1
+for num in range (21):
     if num %2 !=0:
-        print (num)
+        producto = num * producto
+        print (producto)
