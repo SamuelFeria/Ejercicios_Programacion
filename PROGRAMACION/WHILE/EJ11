@@ -1,0 +1,9 @@
+import random
+aleatorio1 = random.randint (1,10)
+aleatorio2 = random.randint (1,10)
+num1 = int (input("Introduce un numero: "))
+num2 = int (input("Introduce otro numero: "))
+while aleatorio1+aleatorio2 != num1+num2:
+    num1 = int (input("Introduce un numero: "))
+    num2 = int (input("Introduce otro numero: "))   
+print ("Enhorabuena acertaste los dos numero!!")

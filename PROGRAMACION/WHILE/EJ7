@@ -1,0 +1,9 @@
+suma = 0
+num1 = int (input("Introduce un numero positivo: "))
+num2 = int (input("Introduce otro numero positivo: "))
+while num1 != 0 and num2 != 0:
+    suma = num1 +  num2
+    print ("Resultado de la suma de los numeros introducidos:", suma)
+    num1 = int (input("Introduce un numero positivo o introduce 0 si quieres que acabe: "))
+    num2 = int (input("Introduce otro numero positivo o introduce 0 si quieres que acabe: "))
+    print ("Resultado de la suma de los numeros introducidos:", suma)
