@@ -1,0 +1,6 @@
+import random
+aleatorio = random.randint (1,10)
+numero= int(input("introduce un numero: "))
+while numero != aleatorio:
+    numero= int(input("introduce un numero: "))
+print("Lo hacertaste!!")
