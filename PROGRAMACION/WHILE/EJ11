@@ -1,9 +1,11 @@
 import random
 aleatorio1 = random.randint (1,10)
+print(aleatorio1)
 aleatorio2 = random.randint (1,10)
-num1 = int (input("Introduce un numero: "))
-num2 = int (input("Introduce otro numero: "))
-while aleatorio1+aleatorio2 != num1+num2:
+print(aleatorio2)
+num1 = int (input("Adivina la suma de los dos numeros: "))
+
+while aleatorio1+aleatorio2 != num1:
     num1 = int (input("Introduce un numero: "))
-    num2 = int (input("Introduce otro numero: "))   
-print ("Enhorabuena acertaste los dos numero!!")
+     
+print ("Enhorabuena acertaste la suma!")
