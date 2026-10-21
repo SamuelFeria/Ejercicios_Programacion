@@ -6,7 +6,7 @@ while not encontrado and posicion < len(lista):
     if lista[posicion]== animal:
         encontrado = True
     else:
-        posicion += 1
+        posicion = posicion+ 1
 if encontrado:
     print("El animal se encuentra en la posicion: ", posicion)
 else:
