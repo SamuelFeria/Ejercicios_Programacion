@@ -8,15 +8,15 @@ for i in range (10):
     lista.append(numero)
     #muestro por pantalla la lista completa.
 print("La lista completa es: ", lista)
-min = []
-max = []
+numMin = lista[0]
+numMax = lista[0]
 #comparo los valores de la lista para ver cual es el mínimo y cual es el máximo.
 for i in range (1,len(lista)):
     #si el valor de la lista es menor que el mínimo guardado, actualizo el mínimo.
-    if lista[i] < min:
-        min = i
+    if lista[i] < numMin:
+        numMin = lista[i]
     #si el valor de la lista es mayor que el máximo guardado, actualizo el máximo.
-    elif lista[i] > max:
-        max = i
+    elif lista[i] > numMax:
+        numMax = lista[i]
 #muestro por pantalla el numero minimo y el maximo actualizado.
-print("El número mínimo es: ", min, "y el número máximo es: ", max)
+print("El número mínimo es: ", numMin, "y el número máximo es: ", numMax)
