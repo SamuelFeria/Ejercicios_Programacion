@@ -1,11 +1,13 @@
 diaSemana=["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 print(diaSemana[6])
+
 import random
 lista=[]
 for i in range(5) :
     numeroRandom=random.randint(0,8)
     lista.append(numeroRandom)
 print(lista)
+
 diaSemana.append("martes")
 diaSemana.append("miercoles") 
 diaSemana.append("jueves")  
@@ -17,5 +19,12 @@ for i in range(20):
     numero+=3
 print(multiplosTres)
 print(len(multiplosTres))
+
+listaMultiplos7= []
+for i in range(1,11):
+    listaMultiplos7.append(i*7)
+print(listaMultiplos7)
+
+listaMultiplos7.insert(8, "programo")
 
 
