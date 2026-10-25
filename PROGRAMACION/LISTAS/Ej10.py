@@ -3,11 +3,13 @@ lista=[]
 for i in range(15):
     numero = int(input("introduce un número: "))
     lista.append(numero)
-lista[0]
-for i in range (len(lista)):
-    if lista[i] > 0:
-        lista[i]
-#guardo el número en la siguiente posicion de la lista
+#guardo el ultimo valor de la lista
+ultimo = lista[-1]
+for i in range (14,0,-1):
+    lista[i] = lista[i-1]
+lista[0] = ultimo
+        
+
 print(lista)
 
 
