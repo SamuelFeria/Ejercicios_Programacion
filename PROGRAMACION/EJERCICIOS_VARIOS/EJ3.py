@@ -10,5 +10,5 @@ for i in range(num,8):
     #imprimo todos los números
     print(i)
     #sumo todos los numeros del recorrido
-    suma = num + i
+    suma = suma + i
 print ("La suma de todos los números es: ",suma)
