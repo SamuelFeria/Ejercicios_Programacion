@@ -16,7 +16,7 @@ for i in range (1,len(lista)):
     if lista[i] < numMin:
         numMin = lista[i]
     #si el valor de la lista es mayor que el máximo guardado, actualizo el máximo.
-    elif lista[i] > numMax:
+    if lista[i] > numMax:
         numMax = lista[i]
 #muestro por pantalla el numero minimo y el maximo actualizado.
 print("El número mínimo es: ", numMin, "y el número máximo es: ", numMax)
