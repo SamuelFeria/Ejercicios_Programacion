@@ -1,4 +1,4 @@
-#Pido un número por teclado.
+"""#Pido un número por teclado.
 num = int(input("Introduce un número: "))
 #creo un contador que empieza en 0
 numDigitos = 0
@@ -6,6 +6,7 @@ numDigitos = 0
 if num <0:
     num = num * -1
 #si el numero es 0, el contador es 1 
+#elif 
 if num == 0:
     numDigitos = 1
     #Mientras el numero sea distinto de 0:
@@ -16,6 +17,11 @@ else:
         #quito la ultima cifra del numero 
         num = num //10
 #cuando el bucle termina, muestro el resultado
-print(numDigitos)
+print(numDigitos)"""
+
+cadena = input("introduce una cadena que empiece por A: ").upper()
+while cadena[0] != "A":
+    cadena = input("introduce una cadena que empiece por A: ").upper()
+print(cadena)
     
 
