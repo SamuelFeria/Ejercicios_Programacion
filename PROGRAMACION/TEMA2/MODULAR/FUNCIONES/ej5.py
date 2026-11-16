@@ -1,9 +1,9 @@
-def convertirEspaciado(texto,cadenaTexto):
-    texto = input("Introduce una frase: ")
-    cadenaTexto = texto.split()
-    return(cadenaTexto)
+def convertirEspaciado(texto):
+    textoEspacio= ""
+    for i in range (len(texto)):
+        if texto[i] != " ":
+            textoEspacio= textoEspacio + texto[i] + " "
+    return textoEspacio
 
 texto = input("Introduce una frase: ")
-cadenaTexto = texto.split()
-dividir = convertirEspaciado(texto,cadenaTexto)
-print(dividir)
+print(convertirEspaciado(texto))
