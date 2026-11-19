@@ -8,11 +8,11 @@ def contarA(lista):
     return contador
 
 lista_fuera = []
-nombre = input("Introduce un nombre: ")
+nombre = input("Introduce un nombre: ").lower()
 lista_fuera.append(nombre)
-apellido1 = input("Introduce tu primer apellido: ")
+apellido1 = input("Introduce tu primer apellido: ").lower()
 lista_fuera.append(apellido1)
-apellido2 = input("Introduce tu segundo apellido: ")
+apellido2 = input("Introduce tu segundo apellido: ").lower()
 lista_fuera.append(apellido2)
 
 numero_letras = contarA(lista_fuera)

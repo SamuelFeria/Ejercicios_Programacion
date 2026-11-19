@@ -3,15 +3,20 @@ def calcularHoras (tiempo):
     hora = cantidad
     return hora
 
-def calcularMinutos(tiempo):
-    cantidad = tiempo//60
-    minutos = cantidad
+def calcularMinutos(tiempo,hora):
+    segundos_res = segundos- 3600 * hora
+    contador = 0
+    while segundos_res > 60:
+        contador = contador +1
+        segundos_res = segundos_res- 60
+    minutos = contador
     return minutos
 
-def horasYMinutos():
-    segundos = int(input("Introduce los segundos: "))
+def clacularSegundos(horas,minutos):
     horas = calcularHoras()
     minutos = calcularMinutos()
     return [horas,minutos]
-
-print(segundos,"segundos serán: ",horas,minutos,)
+segundos = int(input("Introduce segundos: "))
+horas = calcularHoras(segundos)
+minutos = calcularMinutos(segundos,horas)
+print(segundos,"segundos serán: ",horas,"horas",minutos,"minutos")
