@@ -10,3 +10,5 @@ def imprimeMatrizInvertida(lista):
     
 listas = [['a','b','c'],  ['d','e','f'], ['g','h','i']] 
 imprimeMatrizInvertida(listas)
+
+    

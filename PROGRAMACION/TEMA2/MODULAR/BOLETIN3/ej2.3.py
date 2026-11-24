@@ -1,10 +1,10 @@
 #Construye una función que te imprimirá cada fila invertida.
 def posicionInvertida(lista):
     for i in range (len(lista)):
-        sublista = lista[i]
+        fila = lista[i]
         sublista2 = []
-        for j in range (len(sublista)-1,-1,-1):
-            valor = sublista[j]
+        for j in range (len(fila)-1,-1,-1):
+            valor = fila[j]
             sublista2.append(valor)
         print(sublista2)
 
