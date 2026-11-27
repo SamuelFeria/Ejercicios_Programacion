@@ -14,7 +14,7 @@ def crearTabla(n):
             fila2 = n*(1+i)
             lista.append(fila2)
     return lista
-            
+#terminar        
             
         
 num = int(input("Introduce un número: "))
